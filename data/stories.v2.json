@@ -1,0 +1,443 @@
+{
+  "version": "2.0",
+  "stories": [
+    {
+      "id": "qian-xuesen",
+      "legacyIds": [
+        "qian_xuesen_001",
+        "atomic_bomb"
+      ],
+      "title": "钱学森·科技报国",
+      "shortTitle": "钱学森",
+      "subtitle": "把个人理想融入国家需要",
+      "description": "以求学科研、海外成就、归国使命、服务国家科技事业和精神传承为主线，理解钱学森科技报国与系统工程思想。",
+      "theme": "heritage-red",
+      "spiritKeywords": [
+        "爱国",
+        "创新",
+        "求实",
+        "奉献",
+        "协同"
+      ],
+      "hero": {
+        "poster": "/assets/stories/qian_xuesen/hero_poster.png",
+        "mobilePoster": "/assets/stories/qian_xuesen/hero_poster.png"
+      },
+      "scene": {
+        "modelHigh": "/assets/models/qianxuesen.ply",
+        "modelCompressed": "/assets/models/qianxuesen.spz",
+        "fallbackPoster": "/assets/stories/qian_xuesen/hero_poster.png",
+        "initialRotation": [
+          -90,
+          -5,
+          -5
+        ]
+      },
+      "audio": {
+        "bgmVolume": 0.15,
+        "narration": "/assets/audio/qian_xuesen/story_3min.mp3"
+      },
+      "chapters": [
+        {
+          "id": "qx-01",
+          "order": 1,
+          "title": "求学与科研起点",
+          "subtitle": "青年立志，科学报国",
+          "summary": "从扎实求学到走向世界科研前沿。",
+          "body": "青年时期的钱学森展现出深厚的科学志向，在国内接受扎实基础教育后远赴海外深造，为后续科研生涯奠定基础。",
+          "image": "/assets/stories/qian_xuesen/chapter_01.png",
+          "videoPoster": "/assets/stories/qian_xuesen/chapter_01.png",
+          "scene": {
+            "cameraPosition": [
+              -1.26,
+              2.82,
+              5.12
+            ],
+            "cameraTarget": [
+              0,
+              0.8,
+              0
+            ],
+            "hotspot": [
+              -2,
+              0.5,
+              0
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "这一阶段最能体现什么品质？",
+            "options": [
+              "扎实求学与科学志向",
+              "追求短期名利"
+            ],
+            "correctIndex": 0,
+            "feedback": "扎实学习和明确的科学志向，是其后来服务国家科技事业的重要基础。"
+          }
+        },
+        {
+          "id": "qx-02",
+          "order": 2,
+          "title": "海外科研成就",
+          "subtitle": "空气动力学与工程控制论",
+          "summary": "在国际科研前沿形成深厚积累。",
+          "body": "钱学森在空气动力学、工程控制论等领域取得重要成果，并形成系统工程视野。",
+          "image": "/assets/stories/qian_xuesen/chapter_02.png",
+          "scene": {
+            "cameraPosition": [
+              3.2,
+              1.8,
+              5.5
+            ],
+            "cameraTarget": [
+              0.5,
+              0.8,
+              0
+            ],
+            "hotspot": [
+              -1,
+              0.7,
+              0.3
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "科研成就对归国后的工作有何意义？",
+            "options": [
+              "提供理论和系统工程积累",
+              "与国家科技建设无关"
+            ],
+            "correctIndex": 0,
+            "feedback": "这些积累成为推动我国航天与国防科技体系建设的重要基础。"
+          }
+        },
+        {
+          "id": "qx-03",
+          "order": 3,
+          "title": "归国与使命",
+          "subtitle": "把理想融入国家需要",
+          "summary": "面对阻碍仍作出归国选择。",
+          "body": "面对重重困难，他毅然决定回到祖国，将毕生所学奉献给中国科技事业。",
+          "image": "/assets/stories/qian_xuesen/chapter_03.png",
+          "scene": {
+            "cameraPosition": [
+              3.2,
+              1.8,
+              5.5
+            ],
+            "cameraTarget": [
+              0.5,
+              0.8,
+              0
+            ],
+            "hotspot": [
+              0,
+              1,
+              0.5
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "钱学森的归国选择体现了什么？",
+            "options": [
+              "个人理想与国家需要相结合",
+              "只关注个人待遇"
+            ],
+            "correctIndex": 0,
+            "feedback": "归国选择集中体现了科技报国的爱国精神。"
+          }
+        },
+        {
+          "id": "qx-04",
+          "order": 4,
+          "title": "服务国家科技事业",
+          "subtitle": "系统工程与协同攻关",
+          "summary": "推动航天和国防科技体系建设。",
+          "body": "他在导弹、火箭、航天工程和科技组织等方面发挥关键作用，推动复杂系统协同攻关。",
+          "image": "/assets/stories/qian_xuesen/chapter_04.png",
+          "scene": {
+            "cameraPosition": [
+              2.5,
+              1.6,
+              5
+            ],
+            "cameraTarget": [
+              0,
+              0.8,
+              0
+            ],
+            "hotspot": [
+              1,
+              0.7,
+              0.3
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "重大科技工程为何需要协同？",
+            "options": [
+              "涉及多学科和多单位系统配合",
+              "只依赖一名科学家"
+            ],
+            "correctIndex": 0,
+            "feedback": "重大工程依赖跨学科、跨单位的系统组织与协同攻关。"
+          }
+        },
+        {
+          "id": "qx-05",
+          "order": 5,
+          "title": "科学家精神传承",
+          "subtitle": "爱国、创新、求实、奉献",
+          "summary": "科技报国精神持续激励青年。",
+          "body": "钱学森的故事激励青年科技工作者将个人发展与民族复兴、国家需要相结合。",
+          "image": "/assets/stories/qian_xuesen/chapter_05.png",
+          "scene": {
+            "cameraPosition": [
+              2,
+              1.4,
+              6
+            ],
+            "cameraTarget": [
+              0,
+              0.5,
+              0
+            ],
+            "hotspot": [
+              2,
+              0.5,
+              0
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "今天学习科学家精神最重要的落点是什么？",
+            "options": [
+              "转化为学习与行动",
+              "停留在口号"
+            ],
+            "correctIndex": 0,
+            "feedback": "精神传承需要落实到求真学习、协同实践和服务国家需要的行动中。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "change5",
+      "legacyIds": [
+        "change5"
+      ],
+      "title": "嫦娥五号·逐月取壤",
+      "shortTitle": "嫦娥五号",
+      "subtitle": "中国首次地外天体采样返回任务",
+      "description": "以月面采样返回任务为主线，理解复杂航天工程中的自主创新、严谨求实与协同攻关。",
+      "theme": "lunar-blue",
+      "spiritKeywords": [
+        "创新",
+        "协同",
+        "求实",
+        "攻关",
+        "自立自强"
+      ],
+      "hero": {
+        "poster": "/assets/stories/change5/hero_poster.png",
+        "mobilePoster": "/assets/stories/change5/hero_poster.png"
+      },
+      "scene": {
+        "modelHigh": "/assets/models/change5.ply",
+        "modelCompressed": "/assets/models/change5.spz",
+        "fallbackPoster": "/assets/stories/change5/hero_poster.png",
+        "initialRotation": [
+          -75,
+          0,
+          15
+        ]
+      },
+      "audio": {
+        "bgmVolume": 0.14,
+        "narration": "/assets/audio/change5/story_3min.mp3"
+      },
+      "chapters": [
+        {
+          "id": "c5-01",
+          "order": 1,
+          "title": "奔月与环月飞行",
+          "subtitle": "复杂系统踏上逐月之旅",
+          "summary": "四器组合体完成奔月和环月部署。",
+          "body": "嫦娥五号由轨道器、返回器、着陆器和上升器组成，进入月球轨道后按任务流程分离。",
+          "image": "/assets/stories/change5/chapter_01.png",
+          "scene": {
+            "cameraPosition": [
+              -6.59,
+              2.03,
+              -1.21
+            ],
+            "cameraTarget": [
+              0,
+              0,
+              0
+            ],
+            "hotspot": [
+              -1.8,
+              0.8,
+              0
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "四器协同体现了什么工程特点？",
+            "options": [
+              "复杂系统分工与协同",
+              "单一设备独立完成"
+            ],
+            "correctIndex": 0,
+            "feedback": "任务成功依赖多个航天器按精确流程协同工作。"
+          }
+        },
+        {
+          "id": "c5-02",
+          "order": 2,
+          "title": "月面着陆与采样",
+          "subtitle": "钻取与表取协同完成",
+          "summary": "在月面完成采样和封装。",
+          "body": "着上组合体在月面软着陆，并使用钻取和表取两种方式采集月球样品。",
+          "image": "/assets/stories/change5/chapter_02.png",
+          "scene": {
+            "cameraPosition": [
+              2.5,
+              1.2,
+              4.5
+            ],
+            "cameraTarget": [
+              0,
+              -0.2,
+              0
+            ],
+            "hotspot": [
+              -0.8,
+              -0.3,
+              0.3
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "采用两种采样方式的意义是什么？",
+            "options": [
+              "提高样品类型和任务可靠性",
+              "增加无关步骤"
+            ],
+            "correctIndex": 0,
+            "feedback": "不同采样方式可以获得不同层次样品并提高任务可靠性。"
+          }
+        },
+        {
+          "id": "c5-03",
+          "order": 3,
+          "title": "月面起飞与交会对接",
+          "subtitle": "首次地外起飞与无人对接",
+          "summary": "上升器携样品进入环月轨道。",
+          "body": "上升器从月面起飞，并与轨返组合体完成无人交会对接和样品转移。",
+          "image": "/assets/stories/change5/chapter_03.png",
+          "scene": {
+            "cameraPosition": [
+              3.4,
+              2.5,
+              5.8
+            ],
+            "cameraTarget": [
+              0,
+              0.8,
+              0
+            ],
+            "hotspot": [
+              0,
+              1.1,
+              0.5
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "月球轨道无人对接要求什么？",
+            "options": [
+              "高精度测控与自主控制",
+              "人工现场操作"
+            ],
+            "correctIndex": 0,
+            "feedback": "地外无人对接依赖高精度导航、测控和自主控制。"
+          }
+        },
+        {
+          "id": "c5-04",
+          "order": 4,
+          "title": "高速再入与返回",
+          "subtitle": "跳跃式再入安全归来",
+          "summary": "返回器完成高速大气再入。",
+          "body": "返回器以接近第二宇宙速度再入大气层，通过跳跃式再入技术安全着陆。",
+          "image": "/assets/stories/change5/chapter_04.png",
+          "scene": {
+            "cameraPosition": [
+              4,
+              1.5,
+              6.5
+            ],
+            "cameraTarget": [
+              0,
+              0,
+              0
+            ],
+            "hotspot": [
+              1.1,
+              0.6,
+              0.2
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "高速再入为何需要精密设计？",
+            "options": [
+              "控制热、速度和落点风险",
+              "只需增加飞行速度"
+            ],
+            "correctIndex": 0,
+            "feedback": "再入过程必须同时控制热防护、过载、速度和落点精度。"
+          }
+        },
+        {
+          "id": "c5-05",
+          "order": 5,
+          "title": "月壤科学与精神传承",
+          "subtitle": "工程成果转化为科学发现",
+          "summary": "月球样品推动新的科学研究。",
+          "body": "月球样品推动月球演化等研究，任务凝聚了数万航天人的智慧与协同。",
+          "image": "/assets/stories/change5/chapter_05.png",
+          "scene": {
+            "cameraPosition": [
+              2.5,
+              1.8,
+              6
+            ],
+            "cameraTarget": [
+              0,
+              0.5,
+              0
+            ],
+            "hotspot": [
+              2,
+              0.6,
+              0
+            ]
+          },
+          "question": {
+            "type": "choice",
+            "question": "重大航天成果最能说明什么？",
+            "options": [
+              "自主创新与大力协同缺一不可",
+              "只依赖某一项单点技术"
+            ],
+            "correctIndex": 0,
+            "feedback": "复杂航天工程是理论、技术、组织和团队长期协同的结果。"
+          }
+        }
+      ]
+    }
+  ]
+}

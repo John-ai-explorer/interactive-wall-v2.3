@@ -1,0 +1,202 @@
+[
+  {
+    "title": "中国团队发布全球首个万亿参数MoE大模型DeepSeek-V4",
+    "summary": "DeepSeek发布V4系列模型，采用创新MoE架构实现万亿参数高效推理，在代码生成、数学推理、多语言理解等基准测试中全面超越GPT-5，训练成本仅为同类的1/10。",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/deepseek-v4-moe",
+    "publishedAt": "2026-06-28T08:00:00.000Z",
+    "stars": 4
+  },
+  {
+    "title": "华为昇腾910C量产：国产AI训练芯片算力突破1.8 EFLOPS",
+    "summary": "华为正式量产昇腾910C AI训练芯片，基于自研达芬奇架构3.0，FP16算力达到1.8 EFLOPS（集群），能效比提升40%，已向国内头部AI企业批量供货。",
+    "source": "科技日报",
+    "url": "https://www.stdaily.com/ascend-910c",
+    "publishedAt": "2026-06-27T10:30:00.000Z",
+    "stars": 4
+  },
+  {
+    "title": "清华大学SSI框架获NeurIPS 2026最佳论文：小样本学习新范式",
+    "summary": "清华大学团队提出SSI（Self-Supervised Induction）框架，仅需5-10个样本即可完成复杂视觉任务迁移，在医疗影像和工业检测领域实现98.7%的少样本准确率。",
+    "source": "机器之心",
+    "url": "https://www.jiqizhixin.com/tsinghua-ssi-neurips",
+    "publishedAt": "2026-06-26T14:00:00.000Z",
+    "stars": 3
+  },
+  {
+    "title": "百度文心大模型5.0上线：原生多模态推理能力全面开放",
+    "summary": "百度正式发布文心大模型5.0，首次实现文本-图像-视频-代码的原生多模态联合推理，在中文理解、专业写作和跨模态检索任务中达到业界领先水平。",
+    "source": "新华网",
+    "url": "https://www.xinhuanet.com/baidu-ernie-5",
+    "publishedAt": "2026-06-25T09:00:00.000Z",
+    "stars": 3
+  },
+  {
+    "title": "中国科学院量子计算机'天工'实现1024量子比特纠缠",
+    "summary": "中科院量子信息与量子科技创新研究院宣布，超导量子计算机'天工'成功实现1024量子比特的GHZ态纠缠，量子体积突破2^30，标志着中国进入千比特时代。",
+    "source": "新华网",
+    "url": "https://www.xinhuanet.com/tiangong-1024qubit",
+    "publishedAt": "2026-06-24T07:00:00.000Z",
+    "stars": 4
+  },
+  {
+    "title": "中国科大实现世界首个城域量子互联网原型系统",
+    "summary": "中国科学技术大学潘建伟团队建成全球首个城域量子互联网原型，实现8个节点间的量子密钥分发、量子隐形传态和量子中继，传输距离突破100公里。",
+    "source": "科技日报",
+    "url": "https://www.stdaily.com/quantum-internet",
+    "publishedAt": "2026-06-23T16:00:00.000Z",
+    "stars": 4
+  },
+  {
+    "title": "世界人工智能大会WAIC 2026在上海开幕：具身智能成主旋律",
+    "summary": "WAIC 2026在上海世博中心开幕，超过500家企业参展，具身智能和人形机器人成为本届大会核心议题，中国发布首个通用机器人基础模型'悟道·具身'。",
+    "source": "人民日报",
+    "url": "https://www.people.com.cn/waic-2026",
+    "publishedAt": "2026-06-22T11:00:00.000Z",
+    "stars": 0
+  },
+  {
+    "title": "阿里达摩院开源'通义灵码3.0'：AI编程助手全面免费",
+    "summary": "阿里达摩院开源通义灵码3.0，支持40+编程语言，代码生成准确率提升至92%，首次实现跨文件上下文理解和自动化重构建议，GitHub Star数24小时内突破10万。",
+    "source": "InfoQ中国",
+    "url": "https://www.infoq.cn/tongyi-lingma-3",
+    "publishedAt": "2026-06-21T13:00:00.000Z",
+    "stars": 2
+  },
+  {
+    "title": "中国空间站'天和'核心舱AI助手'小航'正式上岗",
+    "summary": "中国载人航天工程办公室宣布，基于大语言模型的空间站AI助手'小航'已完成在轨测试，可辅助航天员进行实验操作、故障诊断和健康管理，响应延迟低于100ms。",
+    "source": "央视新闻",
+    "url": "https://www.cctv.com/tiangong-ai-assistant",
+    "publishedAt": "2026-06-20T08:30:00.000Z",
+    "stars": 3
+  },
+  {
+    "title": "复旦大学发布'伏羲3.0'气象大模型：15天预报精度超ECMWF",
+    "summary": "复旦大学人工智能创新与产业研究院发布伏羲3.0气象大模型，将全球中期天气预报有效时长从10天延长至15天，在热带气旋路径预测上精度超越欧洲中期天气预报中心。",
+    "source": "科技日报",
+    "url": "https://www.stdaily.com/fuxi-3-weather",
+    "publishedAt": "2026-06-19T10:00:00.000Z",
+    "stars": 3
+  },
+  {
+    "title": "字节跳动发布'即梦4.0'：国产视频生成模型达到商用水平",
+    "summary": "字节跳动发布即梦4.0视频生成模型，支持1080P 60秒长视频生成，在人物一致性、物理规律遵循和中文语义理解上大幅提升，已向企业客户开放API。",
+    "source": "36氪",
+    "url": "https://www.36kr.com/jimeng-4-video",
+    "publishedAt": "2026-06-18T15:00:00.000Z",
+    "stars": 2
+  },
+  {
+    "title": "中国电动汽车固态电池量产突破：宁德时代发布'麒麟Solid'",
+    "summary": "宁德时代正式发布'麒麟Solid'全固态电池，能量密度达500Wh/kg，充电10分钟续航1200公里，安全性通过针刺和挤压测试，2027年Q1首次搭载于高端车型。",
+    "source": "新华网",
+    "url": "https://www.xinhuanet.com/catl-solid-state",
+    "publishedAt": "2026-06-17T09:00:00.000Z",
+    "stars": 4
+  },
+  {
+    "title": "北京大学团队发现新型室温超导材料，临界温度达-23°C",
+    "summary": "北京大学物理学院团队在《自然》发表论文，报道一种新型氢基超导材料在1GPa压力下实现-23°C超导转变，为近室温超导研究开辟新路径，引发国际学界广泛关注。",
+    "source": "科技日报",
+    "url": "https://www.stdaily.com/pku-superconductor",
+    "publishedAt": "2026-06-16T06:00:00.000Z",
+    "stars": 4
+  },
+  {
+    "title": "国产自动驾驶'萝卜快跑'覆盖全国50城：L4级规模化运营",
+    "summary": "百度Apollo宣布萝卜快跑自动驾驶出行服务已覆盖全国50个城市，累计订单超1000万单，安全性达人类驾驶员10倍，成为中国最大的自动驾驶出行平台。",
+    "source": "36氪",
+    "url": "https://www.36kr.com/apollo-go-50cities",
+    "publishedAt": "2026-06-15T11:00:00.000Z",
+    "stars": 2
+  },
+  {
+    "title": "中国科学家首次实现二氧化碳人工合成淀粉的工业化生产",
+    "summary": "中科院天津工业生物技术研究所团队在《科学》杂志报道，成功将二氧化碳人工合成淀粉技术推向量产，年产1000吨示范线在天津投产，效率达农业种植的30倍。",
+    "source": "人民日报",
+    "url": "https://www.people.com.cn/co2-starch-industrial",
+    "publishedAt": "2026-06-14T08:00:00.000Z",
+    "stars": 5
+  },
+  {
+    "title": "腾讯Robotics X发布人形机器人'小五'：具备精细操作能力",
+    "summary": "腾讯Robotics X实验室发布第二代通用人形机器人'小五'，配备20个自由度的灵巧手，可完成穿针引线、弹钢琴、叠衣服等精细操作，成本控制在30万元以内。",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/tencent-xiaowu-robot",
+    "publishedAt": "2026-06-13T14:00:00.000Z",
+    "stars": 0
+  },
+  {
+    "title": "国产芯片制造工艺突破：中芯国际实现5nm风险量产",
+    "summary": "中芯国际联合国内设备材料企业实现5nm制程工艺风险量产，良率达到78%，首款5nm芯片为AI推理专用处理器，标志着中国半导体制造迈入先进制程阵营。",
+    "source": "新华网",
+    "url": "https://www.xinhuanet.com/smic-5nm",
+    "publishedAt": "2026-06-12T07:30:00.000Z",
+    "stars": 4
+  },
+  {
+    "title": "浙江大学发布'求是'AI for Science平台：加速材料基因工程",
+    "summary": "浙江大学发布'求是'AI for Science开放平台，集成了材料基因组、药物分子设计和催化反应预测三大模块，利用图神经网络将新材料发现周期从5年缩短至6个月。",
+    "source": "机器之心",
+    "url": "https://www.jiqizhixin.com/zju-qiushi-ai4s",
+    "publishedAt": "2026-06-11T10:00:00.000Z",
+    "stars": 2
+  },
+  {
+    "title": "中国6G试验卫星'鸿雁'完成太赫兹通信在轨验证",
+    "summary": "中国航天科工集团宣布，6G试验卫星'鸿雁'成功完成世界上首次太赫兹频段星地通信在轨验证，传输速率达到100Gbps，为6G星地融合网络奠定技术基础。",
+    "source": "科技日报",
+    "url": "https://www.stdaily.com/6g-thz-satellite",
+    "publishedAt": "2026-06-10T09:00:00.000Z",
+    "stars": 3
+  },
+  {
+    "title": "商汤科技发布'日日新6.0'：多模态通用智能体平台",
+    "summary": "商汤发布日日新6.0通用智能体平台，整合视觉感知、自然语言理解和机器人控制，支持开发者通过自然语言指令即可编排复杂多步骤任务，已在智能制造和智慧医疗落地。",
+    "source": "量子位",
+    "url": "https://www.qbitai.com/sensetime-ririxin-6",
+    "publishedAt": "2026-06-09T12:00:00.000Z",
+    "stars": 0
+  },
+  {
+    "title": "中国脑计划阶段性成果：首个猕猴全脑皮层连接图谱完成",
+    "summary": "中国科学院脑科学与智能技术卓越创新中心完成全球首个猕猴全脑皮层单细胞分辨率连接图谱，包含1.2亿个神经元和400亿个突触连接，为类脑智能提供关键生物学基础。",
+    "source": "科技日报",
+    "url": "https://www.stdaily.com/brain-atlas-macaque",
+    "publishedAt": "2026-06-08T08:00:00.000Z",
+    "stars": 3
+  },
+  {
+    "title": "小米CyberDog 3量产上市：消费级四足机器人定价4999元",
+    "summary": "小米正式发售CyberDog 3四足机器人，搭载端侧AI大模型实现自然语言交互和自主导航，支持开发者二次编程，首发价4999元成为首款5000元以内消费级四足机器人。",
+    "source": "36氪",
+    "url": "https://www.36kr.com/xiaomi-cyberdog3",
+    "publishedAt": "2026-06-07T10:00:00.000Z",
+    "stars": 1
+  },
+  {
+    "title": "中国科学团队实现全球首次月壤3D打印：月球基地建设迈出关键一步",
+    "summary": "中国空间技术研究院利用嫦娥五号带回的真实月壤样品，在地面模拟月球环境下成功实现月壤激光3D打印，打印件抗压强度达60MPa，为原位建造月球基地提供可行方案。",
+    "source": "人民日报",
+    "url": "https://www.people.com.cn/lunar-soil-3dprint",
+    "publishedAt": "2026-06-06T07:00:00.000Z",
+    "stars": 4
+  },
+  {
+    "title": "鹏城实验室'鹏城云脑III'启用：算力达2000 PFLOPS",
+    "summary": "鹏城实验室'鹏城云脑III'超级计算平台正式启用，总算力2000 PFLOPS（FP16），采用全自研AI处理器，将为全国科研机构提供大规模AI训练和科学计算服务。",
+    "source": "科技日报",
+    "url": "https://www.stdaily.com/pengcheng-cloudbrain3",
+    "publishedAt": "2026-06-05T09:00:00.000Z",
+    "stars": 3
+  },
+  {
+    "title": "中国AI制药企业英矽智能公布全球首款AI发现药物III期临床成功",
+    "summary": "英矽智能宣布其利用AI平台发现的抗纤维化新药ISM001-055在全球III期临床试验达到主要终点，成为全球首款从靶点发现到临床验证全程由AI驱动的创新药物。",
+    "source": "新华网",
+    "url": "https://www.xinhuanet.com/insilico-phase3",
+    "publishedAt": "2026-06-04T08:30:00.000Z",
+    "stars": 3
+  }
+]

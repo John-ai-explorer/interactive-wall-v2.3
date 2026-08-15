@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Essential animate.css classes (subset to avoid Turbopack bug)
+   ============================================================ */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animate__fadeIn { animation-name: fadeIn; }
+.animate__fadeInUp { animation-name: fadeInUp; }
+.animate__fadeInDown { animation-name: fadeInDown; }
+.animate__fadeInRight { animation-name: fadeInRight; }
+.animate__zoomIn { animation-name: zoomIn; }
+.animate__pulse { animation-name: pulse; animation-duration: 1.5s; }
+.animate__shakeX { animation-name: shakeX; }
+.animate__fadeInUp { animation-name: fadeInUp; }
+.animate__delay-0\.5s { animation-delay: 0.5s; }
+
+@keyframes fadeIn {
+  from { opacity: 0; } to { opacity: 1; }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translate3d(0, 20px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translate3d(0, -20px, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translate3d(20px, 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+@keyframes zoomIn {
+  from { opacity: 0; transform: scale3d(0.9, 0.9, 0.9); }
+  to { opacity: 1; transform: scale3d(1, 1, 1); }
+}
+@keyframes pulse {
+  0% { transform: scale3d(1, 1, 1); }
+  50% { transform: scale3d(1.05, 1.05, 1.05); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+@keyframes shakeX {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate3d(-6px, 0, 0); }
+  20%, 40%, 60%, 80% { transform: translate3d(6px, 0, 0); }
+}
+
+/* ============================================================
+   Scientist Spirit Culture Wall — Global Theme
+   ============================================================ */
+
+:root {
+  --bg-deep: #080E1A;
+  --bg-dark-red: #120608;
+  --bg-mid-red: #5C1111;
+  --primary-red: #8B1E1E;
+  --accent-red: #C32828;
+  --gold: #D6A84F;
+  --text-white: #F7F2E8;
+  --text-muted: #B9B1A2;
+  --line-gold: rgba(214, 168, 79, 0.35);
+  --card-bg: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(214, 168, 79, 0.18);
+  --easing: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-deep);
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgba(139, 30, 30, 0.25) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(214, 168, 79, 0.06) 0%, transparent 50%);
+  background-attachment: fixed;
+  color: var(--text-white);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* ---- Glass card utility ---- */
+.glass-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(16px);
+  border-radius: 20px;
+}
+
+/* ---- Gold button ---- */
+.btn-primary {
+  background: linear-gradient(135deg, #8B1E1E, #C32828);
+  box-shadow: 0 0 24px rgba(195, 40, 40, 0.24);
+  color: var(--text-white);
+  transition: all 300ms var(--easing);
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 32px rgba(195, 40, 40, 0.36);
+}
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+/* ---- Outline button ---- */
+.btn-outline {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(214, 168, 79, 0.28);
+  color: var(--gold);
+  transition: all 300ms var(--easing);
+}
+.btn-outline:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+.btn-outline:active {
+  transform: scale(0.98);
+}
+
+/* ---- Reduced motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---- Scrollbar styling ---- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(214, 168, 79, 0.25);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(214, 168, 79, 0.4);
+}

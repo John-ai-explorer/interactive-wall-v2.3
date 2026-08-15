@@ -1,0 +1,128 @@
+{
+  "events": [
+    {
+      "event_id": "qian_xuesen_001",
+      "title": "钱学森归国与两弹一星精神",
+      "scientist": "钱学森",
+      "theme": "爱国、创新、求实、奉献",
+      "spirit_keywords": ["爱国", "创新", "求实", "奉献", "攻关", "担当"],
+      "cover_image": "/assets/events/qian_xuesen/cover.png",
+      "description": "钱学森是中国航天事业和国防科技事业的重要奠基人。他冲破重重阻碍回到祖国，将个人理想融入国家需要，为中国航天、导弹和国防科技体系建设做出了不可磨灭的贡献。",
+      "videos": [
+        "/assets/events/qian_xuesen/video_01.mp4",
+        "/assets/events/qian_xuesen/video_02.mp4",
+        "/assets/events/qian_xuesen/video_03.mp4",
+        "/assets/events/qian_xuesen/video_04.mp4",
+        "/assets/events/qian_xuesen/video_05.mp4"
+      ],
+      "texts": [
+        "青年时期的钱学森展现出深厚的科学志向。",
+        "他在空气动力学、工程控制论等领域取得重要成果。",
+        "他选择把个人理想融入国家需要。",
+        "他参与推动中国航天事业和国防科技体系建设。",
+        "他的故事体现了爱国、创新、求实和奉献精神。"
+      ],
+      "audio": "/assets/events/qian_xuesen/narration.mp3",
+      "bgm": "/assets/bgm/science_spirit.mp3",
+      "scene3d": "/assets/events/qian_xuesen/scene.glb",
+      "timeline": [
+        {
+          "id": "node_01",
+          "progress": 0.1,
+          "title": "求学与科研起点",
+          "subtitle": "青年立志，科学报国",
+          "text": "青年时期的钱学森展现出深厚的科学志向。他在国内接受了扎实的基础教育后，远赴海外深造，为日后的科研生涯奠定了坚实基础。",
+          "video": "/assets/events/qian_xuesen/video_01.mp4",
+          "audio": "/assets/events/qian_xuesen/narration_01.mp3",
+          "thumbnail": "/assets/events/qian_xuesen/thumb_01.png",
+          "camera": {
+            "position": [2.5, 1.6, 5.0],
+            "target": [0.0, 0.8, 0.0]
+          },
+          "marker": {
+            "position": [-2.0, 0.5, 0.0],
+            "label": "求学起点"
+          }
+        },
+        {
+          "id": "node_02",
+          "progress": 0.35,
+          "title": "海外科研成就",
+          "subtitle": "空气动力学与工程控制论",
+          "text": "他在空气动力学、工程控制论等领域取得重要成果。他的研究贡献获得了国际学术界的高度认可，成为当时相关领域的顶尖科学家之一。",
+          "video": "/assets/events/qian_xuesen/video_02.mp4",
+          "audio": "/assets/events/qian_xuesen/narration_02.mp3",
+          "thumbnail": "/assets/events/qian_xuesen/thumb_01.png",
+          "camera": {
+            "position": [3.2, 1.8, 5.5],
+            "target": [0.5, 0.8, 0.0]
+          },
+          "marker": {
+            "position": [-1.0, 0.7, 0.3],
+            "label": "海外成就"
+          }
+        },
+        {
+          "id": "node_03",
+          "progress": 0.6,
+          "title": "归国与使命",
+          "subtitle": "把理想融入国家需要",
+          "text": "他选择把个人理想融入国家需要。面对重重困难，他毅然决定回到祖国，将毕生所学奉献给中国的科技事业和国防建设。",
+          "video": "/assets/events/qian_xuesen/video_03.mp4",
+          "audio": "/assets/events/qian_xuesen/narration_03.mp3",
+          "thumbnail": "/assets/events/qian_xuesen/thumb_03.png",
+          "camera": {
+            "position": [3.2, 1.8, 5.5],
+            "target": [0.5, 0.8, 0.0]
+          },
+          "marker": {
+            "position": [0.0, 1.0, 0.5],
+            "label": "归国使命"
+          }
+        },
+        {
+          "id": "node_04",
+          "progress": 0.8,
+          "title": "服务国家科技事业",
+          "subtitle": "航天与国防科技体系建设",
+          "text": "他参与推动中国航天事业和国防科技体系建设，在导弹、火箭和航天工程等领域发挥了关键作用，为中国科技自立自强奠定了重要基础。",
+          "video": "/assets/events/qian_xuesen/video_04.mp4",
+          "audio": "/assets/events/qian_xuesen/narration_04.mp3",
+          "thumbnail": "/assets/events/qian_xuesen/thumb_01.png",
+          "camera": {
+            "position": [2.5, 1.6, 5.0],
+            "target": [0.0, 0.8, 0.0]
+          },
+          "marker": {
+            "position": [1.0, 0.7, 0.3],
+            "label": "科技攻关"
+          }
+        },
+        {
+          "id": "node_05",
+          "progress": 1.0,
+          "title": "科学家精神传承",
+          "subtitle": "爱国、创新、求实、奉献",
+          "text": "他的故事体现了爱国、创新、求实和奉献精神。钱学森的传奇人生激励着一代又一代青年科技工作者，将个人理想融入民族复兴的伟大事业中。",
+          "video": "/assets/events/qian_xuesen/video_05.mp4",
+          "audio": "/assets/events/qian_xuesen/narration_05.mp3",
+          "thumbnail": "/assets/events/qian_xuesen/thumb_05.png",
+          "camera": {
+            "position": [2.0, 1.4, 6.0],
+            "target": [0.0, 0.5, 0.0]
+          },
+          "marker": {
+            "position": [2.0, 0.5, 0.0],
+            "label": "精神传承"
+          }
+        }
+      ],
+      "visual": {
+        "hero_image": "/assets/ui/hero_science_spirit_wall.png",
+        "theme_color": "#8B1E1E",
+        "accent_color": "#D6A84F",
+        "particle_profile": "space"
+      }
+    }
+  ]
+}
